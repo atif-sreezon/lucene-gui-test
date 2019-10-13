@@ -87,7 +87,7 @@ namespace GUI_Practice
                     //WriteLine("URL: {0}", storeRecords[x].passages[y].url.ToString());
                     //WriteLine("Passage Text: {0}", storeRecords[x].passages[y].passage_text.ToString());
                     myLuceneApp.IndexText(storeRecords[x].passages[y].url, storeRecords[x].passages[y].passage_text);
-                    //LuceneApp.IndexText(storeRecords[x].passages[y].passage_text);
+                    
                 }
             }
             System.DateTime IndexEnd = DateTime.Now;
